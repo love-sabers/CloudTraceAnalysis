@@ -1,0 +1,5 @@
+gpu_id,hbm_capacity_gb,peak_hbm_bandwidth_gb_s,source_id,notes
+A800-80GB-assumed,80,2039,a800_spec_secondary,"Assumption for first-pass A800-dev roofline. Verify exact SKU and bandwidth on server before final analysis."
+A100-80GB-SXM-reference,80,2039,nvidia_a100_specs,"Reference Ampere 80GB SXM-class HBM2e bandwidth often used as A800-class proxy."
+A100-80GB-PCIe-reference,80,1935,nvidia_a100_specs,"Reference PCIe-class HBM2e bandwidth for sensitivity if A800-dev is PCIe."
+H100-80GB-SXM-reference,80,3350,nvidia_h100_specs,"Reference only; included to show how conclusions shift with newer HBM bandwidth."

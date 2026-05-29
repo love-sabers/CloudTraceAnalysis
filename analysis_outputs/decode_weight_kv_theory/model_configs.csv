@@ -1,0 +1,8 @@
+model,params_b,layers,hidden_size,intermediate_size,n_q_heads,n_kv_heads,head_dim,attention_family,max_context_public,source_id,notes
+Llama-2-7B,6.74,32,4096,11008,32,32,128,MHA,4096,hf_llama2_7b,"Llama 2 7B uses MHA in the common HF config; params are approximate effective dense params."
+Llama-2-13B,13.00,40,5120,13824,40,40,128,MHA,4096,hf_llama2_13b,"Llama 2 13B uses MHA in the common HF config."
+Llama-2-70B,70.00,80,8192,28672,64,8,128,GQA,4096,hf_llama2_70b,"Llama 2 70B uses grouped-query attention with 8 KV heads."
+Mistral-7B-v0.1,7.24,32,4096,14336,32,8,128,GQA,32768,hf_mistral_7b,"Mistral 7B uses sliding-window attention in model behavior; this table records full logical KV fields for first-pass theory."
+Llama-3.1-8B,8.03,32,4096,14336,32,8,128,GQA,131072,hf_llama31_8b,"Meta Llama 3.1 8B has 8 KV heads and long-context RoPE settings."
+Qwen2.5-7B-Instruct,7.61,28,3584,18944,28,4,128,GQA,131072,hf_qwen25_7b,"Qwen2.5 7B uses 4 KV heads; public parameter count is approximate."
+Qwen2.5-32B-Instruct,32.50,64,5120,27648,40,8,128,GQA,131072,hf_qwen25_32b,"Qwen2.5 32B uses 8 KV heads; public parameter count is approximate."
