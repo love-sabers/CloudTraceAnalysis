@@ -1,0 +1,26 @@
+# OSWorld-Verified P0 Summary (doubao-1-5-thinking-vision-pro-250428-15step)
+
+- Runs: 361
+- Events: 22273
+- Success rate: 0.263
+
+## Domain Summary
+
+|domain|runs|success_rate|avg_steps|avg_screenshot_mb|avg_response_tokens|avg_runtime_log_kb|
+|---|---|---|---|---|---|---|
+|chrome|46|0.413|11.09|4.294|0.0|1.2|
+|gimp|26|0.462|9.65|4.211|0.0|1.05|
+|libreoffice_calc|47|0.128|13.21|2.701|0.0|1.43|
+|libreoffice_impress|47|0.298|10.94|3.63|0.0|1.18|
+|libreoffice_writer|23|0.348|10.35|2.446|0.0|1.12|
+|multi_apps|93|0.022|13.61|5.983|0.0|1.47|
+|os|24|0.292|10.04|8.19|0.0|1.08|
+|thunderbird|15|0.667|10.13|2.656|0.0|1.09|
+|vlc|17|0.235|11.65|12.482|0.0|1.26|
+|vs_code|23|0.565|10.7|1.894|0.0|1.16|
+
+## Interpretation
+
+- OSWorld introduces real desktop/GUI/VM phases absent from tau-bench and stronger than web-only AgentRewardBench.
+- S0/S5/S6/S8 carry VM/container, display, CPU, and storage demand due to environment setup, desktop actuation, screenshots, app execution, and execution-based validation.
+- S1/S4 remain accelerator/HBM dominated because each step requires model reasoning and action synthesis.

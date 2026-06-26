@@ -1,0 +1,10 @@
+source,scope,stage_id,stage_name,event_count,accelerator_gpu_npu,cpu,dram_hbm_memory,storage_io,network_io,browser_display_graphics,vm_container_isolation
+OSWorld-Verified,o3_gta1_50steps,S0,setup,369,0.0,3.0,2.0,2.0,1.0,3.0,3.0
+OSWorld-Verified,o3_gta1_50steps,S1,goal_interpretation_planning,369,3.0,1.0,3.0,0.0,0.0,0.0,0.0
+OSWorld-Verified,o3_gta1_50steps,S2,observation_capture,8399,2.0,2.0,2.347,1.0,0.0,3.0,2.0
+OSWorld-Verified,o3_gta1_50steps,S3,context_building,8399,2.0,3.0,3.0,1.0,0.0,2.347,2.0
+OSWorld-Verified,o3_gta1_50steps,S4,action_decision,8399,3.0,1.0,3.0,0.0,0.0,1.042,0.0
+OSWorld-Verified,o3_gta1_50steps,S5,actuation_desktop_gui,8399,0.0,2.399,2.0,1.411,0.138,3.0,3.0
+OSWorld-Verified,o3_gta1_50steps,S6,environment_result_wait,8399,0.0,3.0,2.0,2.0,0.138,3.0,3.0
+OSWorld-Verified,o3_gta1_50steps,S7,feedback_error_recovery,7,3.0,2.0,3.0,1.0,0.0,2.143,2.0
+OSWorld-Verified,o3_gta1_50steps,S8,validation_finalization,369,1.0,3.0,1.0,2.0,1.0,1.0,3.0

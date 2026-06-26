@@ -1,0 +1,26 @@
+# OSWorld-Verified P0 Summary (claude-4-sonnet-20250514-15steps)
+
+- Runs: 361
+- Events: 23655
+- Success rate: 0.305
+
+## Domain Summary
+
+|domain|runs|success_rate|avg_steps|avg_screenshot_mb|avg_response_tokens|avg_runtime_log_kb|
+|---|---|---|---|---|---|---|
+|chrome|46|0.348|12.41|5.513|0.0|42.64|
+|gimp|26|0.462|10.65|5.491|0.0|37.66|
+|libreoffice_calc|47|0.17|13.83|2.77|0.0|46.97|
+|libreoffice_impress|47|0.362|11.62|3.803|0.0|32.52|
+|libreoffice_writer|23|0.391|11.7|2.435|0.0|30.41|
+|multi_apps|93|0.097|14.24|6.001|0.0|37.44|
+|os|24|0.375|10.79|11.261|0.0|31.19|
+|thunderbird|15|0.667|10.87|2.957|0.0|29.94|
+|vlc|17|0.353|10.12|11.328|0.0|28.87|
+|vs_code|23|0.609|12.3|2.082|0.0|33.6|
+
+## Interpretation
+
+- OSWorld introduces real desktop/GUI/VM phases absent from tau-bench and stronger than web-only AgentRewardBench.
+- S0/S5/S6/S8 carry VM/container, display, CPU, and storage demand due to environment setup, desktop actuation, screenshots, app execution, and execution-based validation.
+- S1/S4 remain accelerator/HBM dominated because each step requires model reasoning and action synthesis.

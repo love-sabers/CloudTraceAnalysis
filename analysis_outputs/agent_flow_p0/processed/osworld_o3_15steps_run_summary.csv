@@ -1,0 +1,11 @@
+domain,runs,success_rate,avg_steps,avg_screenshot_mb,avg_response_tokens,avg_runtime_log_kb
+chrome,46,0.065,12.2,3.691,0.0,11.01
+gimp,26,0.115,13.31,6.679,0.0,11.21
+libreoffice_calc,47,0.0,14.87,3.043,0.0,13.91
+libreoffice_impress,47,0.0,15.0,4.784,0.0,12.17
+libreoffice_writer,23,0.043,14.87,2.973,0.0,14.25
+multi_apps,101,0.109,12.31,4.092,0.0,11.34
+os,24,0.375,10.0,11.779,0.0,8.92
+thunderbird,15,0.067,14.8,4.244,0.0,13.8
+vlc,17,0.059,14.06,15.143,0.0,12.2
+vs_code,23,0.13,13.35,2.037,0.0,11.47

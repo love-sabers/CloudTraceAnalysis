@@ -1,0 +1,10 @@
+source,scope,stage_id,stage_name,event_count,accelerator_gpu_npu,cpu,dram_hbm_memory,storage_io,network_io,browser_display_graphics,vm_container_isolation
+tau-bench,all,S0,setup,0,0,0,0,0,0,0,0
+tau-bench,all,S1,goal_interpretation_planning,1980,3.0,2.0,3.0,0.0,0.0,0.0,0.0
+tau-bench,all,S2,observation_capture,14011,2.0,1.0,2.0,0.0,1.0,0.0,0.0
+tau-bench,all,S3,context_building,0,0,0,0,0,0,0,0
+tau-bench,all,S4,action_decision,25008,3.0,1.0,3.0,0.0,0.0,0.0,0.0
+tau-bench,all,S5,actuation_tool_call,14285,0.0,2.0,1.0,1.0,3.0,0.0,0.0
+tau-bench,all,S6,environment_result_wait,13362,0.003,2.0,2.001,1.001,3.0,0.0,0.0
+tau-bench,all,S7,feedback_error_recovery,2231,3.0,2.0,3.0,1.0,2.0,0.0,0.0
+tau-bench,all,S8,validation_finalization,1980,1.0,2.0,1.0,1.0,1.0,0.0,0.0

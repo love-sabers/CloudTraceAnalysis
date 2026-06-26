@@ -1,0 +1,18 @@
++ curl -4 -L --fail --connect-timeout 30 --max-time 14400 --retry 4 --retry-delay 10 -o /root/liujun/saber/project/CloudTrace/raw/osworld/zips/coact1-150-100-50-15steps.zip https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_verified_trajs/resolve/main/coact1-150-100-50-15steps.zip
++ python3 scripts/analyze_osworld_zip.py /root/liujun/saber/project/CloudTrace/raw/osworld/zips/coact1-150-100-50-15steps.zip --model coact1-150-100-50-15steps
++ python3 scripts/generate_stage_heatmap.py /root/liujun/saber/project/CloudTrace/processed/osworld_coact1-150-100-50-15steps_stage_resource_summary.csv /root/liujun/saber/project/CloudTrace/reports/osworld_coact1-150-100-50-15steps_stage_resource_heatmap.svg --title 'OSWorld coact1-150-100-50-15steps stage-resource proxy heatmap'
++ curl -4 -L --fail --connect-timeout 30 --max-time 14400 --retry 4 --retry-delay 10 -o /root/liujun/saber/project/CloudTrace/raw/osworld/zips/opencua_agent-opencua_32b-cot_l2-action_history-3image-Ubuntu-15steps.zip https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_verified_trajs/resolve/main/opencua_agent-opencua_32b-cot_l2-action_history-3image-Ubuntu-15steps.zip
++ python3 scripts/analyze_osworld_zip.py /root/liujun/saber/project/CloudTrace/raw/osworld/zips/opencua_agent-opencua_32b-cot_l2-action_history-3image-Ubuntu-15steps.zip --model opencua_agent-opencua_32b-cot_l2-action_history-3image-Ubuntu-15steps
++ python3 scripts/generate_stage_heatmap.py /root/liujun/saber/project/CloudTrace/processed/osworld_opencua_agent-opencua_32b-cot_l2-action_history-3image-Ubuntu-15steps_stage_resource_summary.csv /root/liujun/saber/project/CloudTrace/reports/osworld_opencua_agent-opencua_32b-cot_l2-action_history-3image-Ubuntu-15steps_stage_resource_heatmap.svg --title 'OSWorld opencua_agent-opencua_32b-cot_l2-action_history-3image-Ubuntu-15steps stage-resource proxy heatmap'
++ curl -4 -L --fail --connect-timeout 30 --max-time 14400 --retry 4 --retry-delay 10 -o /root/liujun/saber/project/CloudTrace/raw/osworld/zips/o3_100steps.zip https://hf-mirror.com/datasets/xlangai/ubuntu_osworld_verified_trajs/resolve/main/o3_100steps.zip
++ python3 scripts/analyze_osworld_zip.py /root/liujun/saber/project/CloudTrace/raw/osworld/zips/o3_100steps.zip --model o3_100steps
++ python3 scripts/generate_stage_heatmap.py /root/liujun/saber/project/CloudTrace/processed/osworld_o3_100steps_stage_resource_summary.csv /root/liujun/saber/project/CloudTrace/reports/osworld_o3_100steps_stage_resource_heatmap.svg --title 'OSWorld o3_100steps stage-resource proxy heatmap'
+models 43
+runs 16704
+events 2044068
+wrote /root/liujun/saber/project/CloudTrace/processed/osworld_all_stage_resource_summary.csv
+wrote /root/liujun/saber/project/CloudTrace/reports/osworld_all_p0_summary.md
+arb_runs 1302
+arb_events 143224
+wrote /root/liujun/saber/project/CloudTrace/processed/p0_combined_stage_resource_summary.csv
+wrote /root/liujun/saber/project/CloudTrace/reports/p0_agent_flow_resource_summary.md

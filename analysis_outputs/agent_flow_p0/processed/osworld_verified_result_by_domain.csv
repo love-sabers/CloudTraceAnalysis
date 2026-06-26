@@ -1,0 +1,11 @@
+domain,tasks,success_sum,success_rate
+libreoffice_writer,23,13.0,0.565
+libreoffice_calc,47,13.0,0.277
+gimp,26,18.0,0.692
+libreoffice_impress,47,19.958281582583023,0.425
+vlc,17,6.0,0.353
+os,24,12.0,0.5
+multi_apps,93,16.0,0.172
+thunderbird,15,11.0,0.733
+chrome,46,18.0,0.391
+vs_code,23,18.0,0.783

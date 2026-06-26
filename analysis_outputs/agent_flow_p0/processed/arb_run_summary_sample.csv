@@ -1,0 +1,5 @@
+benchmark,runs,successful,unsuccessful,avg_steps,avg_input_tokens,avg_output_tokens,avg_error_steps
+assistantbench,1,0,1,31.0,117183.0,2372.0,18.0
+visualwebarena,1,0,1,31.0,257868.0,3307.0,0.0
+webarena,1,0,1,5.0,29055.0,375.0,1.0
+workarena,1,0,1,31.0,195378.0,2306.0,0.0

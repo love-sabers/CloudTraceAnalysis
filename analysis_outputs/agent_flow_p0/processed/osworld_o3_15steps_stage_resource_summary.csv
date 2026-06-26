@@ -1,0 +1,10 @@
+source,scope,stage_id,stage_name,event_count,accelerator_gpu_npu,cpu,dram_hbm_memory,storage_io,network_io,browser_display_graphics,vm_container_isolation
+OSWorld-Verified,o3_15steps,S0,setup,369,0.0,3.0,2.0,2.0,1.0,3.0,3.0
+OSWorld-Verified,o3_15steps,S1,goal_interpretation_planning,369,3.0,2.691,3.0,1.691,0.0,0.0,0.0
+OSWorld-Verified,o3_15steps,S2,observation_capture,4904,2.0,2.932,2.323,1.932,0.0,3.0,2.0
+OSWorld-Verified,o3_15steps,S3,context_building,4904,2.0,3.0,3.0,1.932,0.0,2.323,2.0
+OSWorld-Verified,o3_15steps,S4,action_decision,4904,3.0,2.864,3.0,1.864,0.0,0.97,0.0
+OSWorld-Verified,o3_15steps,S5,actuation_desktop_gui,4904,0.0,2.95,2.0,1.955,0.13,3.0,3.0
+OSWorld-Verified,o3_15steps,S6,environment_result_wait,4904,0.0,3.0,2.0,2.0,0.13,3.0,3.0
+OSWorld-Verified,o3_15steps,S7,feedback_error_recovery,33,3.0,3.0,3.0,2.0,0.0,2.545,2.0
+OSWorld-Verified,o3_15steps,S8,validation_finalization,369,1.0,3.0,1.0,2.0,1.0,1.0,3.0

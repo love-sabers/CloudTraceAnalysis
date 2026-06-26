@@ -1,0 +1,10 @@
+source,scope,stage_id,stage_name,event_count,accelerator_gpu_npu,cpu,dram_hbm_memory,storage_io,network_io,browser_display_graphics,vm_container_isolation
+OSWorld-Verified,coact1-150-100-50-15steps,S0,setup,0,0,0,0,0,0,0,0
+OSWorld-Verified,coact1-150-100-50-15steps,S1,goal_interpretation_planning,0,0,0,0,0,0,0,0
+OSWorld-Verified,coact1-150-100-50-15steps,S2,observation_capture,0,0,0,0,0,0,0,0
+OSWorld-Verified,coact1-150-100-50-15steps,S3,context_building,0,0,0,0,0,0,0,0
+OSWorld-Verified,coact1-150-100-50-15steps,S4,action_decision,0,0,0,0,0,0,0,0
+OSWorld-Verified,coact1-150-100-50-15steps,S5,actuation_desktop_gui,0,0,0,0,0,0,0,0
+OSWorld-Verified,coact1-150-100-50-15steps,S6,environment_result_wait,0,0,0,0,0,0,0,0
+OSWorld-Verified,coact1-150-100-50-15steps,S7,feedback_error_recovery,0,0,0,0,0,0,0,0
+OSWorld-Verified,coact1-150-100-50-15steps,S8,validation_finalization,0,0,0,0,0,0,0,0

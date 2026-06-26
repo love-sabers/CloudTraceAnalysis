@@ -1,0 +1,10 @@
+source,scope,stage_id,stage_name,event_count,accelerator_gpu_npu,cpu,dram_hbm_memory,storage_io,network_io,browser_display_graphics,vm_container_isolation
+OSWorld-Verified,jedi-7b-o3-100steps,S0,setup,361,0.0,3.0,2.0,2.0,1.0,3.0,3.0
+OSWorld-Verified,jedi-7b-o3-100steps,S1,goal_interpretation_planning,361,3.0,1.958,3.0,0.958,0.0,0.0,0.0
+OSWorld-Verified,jedi-7b-o3-100steps,S2,observation_capture,9696,2.0,2.845,2.435,1.845,0.0,3.0,2.0
+OSWorld-Verified,jedi-7b-o3-100steps,S3,context_building,9696,2.0,3.0,3.0,1.845,0.0,2.435,2.0
+OSWorld-Verified,jedi-7b-o3-100steps,S4,action_decision,9696,3.0,2.69,3.0,1.69,0.0,1.305,0.0
+OSWorld-Verified,jedi-7b-o3-100steps,S5,actuation_desktop_gui,9696,0.0,2.909,2.0,1.92,0.154,3.0,3.0
+OSWorld-Verified,jedi-7b-o3-100steps,S6,environment_result_wait,9696,0.0,3.0,2.0,2.0,0.154,3.0,3.0
+OSWorld-Verified,jedi-7b-o3-100steps,S7,feedback_error_recovery,113,3.0,2.982,3.0,1.982,0.0,2.912,2.0
+OSWorld-Verified,jedi-7b-o3-100steps,S8,validation_finalization,361,1.0,3.0,1.0,2.0,1.0,1.0,3.0

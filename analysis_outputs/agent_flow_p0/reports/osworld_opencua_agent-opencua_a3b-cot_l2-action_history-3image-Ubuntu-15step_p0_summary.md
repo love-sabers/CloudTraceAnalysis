@@ -1,0 +1,26 @@
+# OSWorld-Verified P0 Summary (opencua_agent-opencua_a3b-cot_l2-action_history-3image-Ubuntu-15step)
+
+- Runs: 361
+- Events: 22127
+- Success rate: 0.161
+
+## Domain Summary
+
+|domain|runs|success_rate|avg_steps|avg_screenshot_mb|avg_response_tokens|avg_runtime_log_kb|
+|---|---|---|---|---|---|---|
+|chrome|46|0.239|10.96|4.478|4867.8|44.76|
+|gimp|26|0.385|10.5|4.733|4695.8|43.01|
+|libreoffice_calc|47|0.021|11.87|2.386|5141.2|48.48|
+|libreoffice_impress|47|0.17|10.0|3.442|4209.8|39.25|
+|libreoffice_writer|23|0.174|10.91|2.633|4828.4|45.35|
+|multi_apps|93|0.054|13.7|5.838|6111.7|58.37|
+|os|24|0.167|11.33|12.102|4907.8|45.22|
+|thunderbird|15|0.2|11.73|3.747|5193.9|48.77|
+|vlc|17|0.235|9.94|11.808|4382.9|40.98|
+|vs_code|23|0.348|9.91|1.795|4275.1|39.48|
+
+## Interpretation
+
+- OSWorld introduces real desktop/GUI/VM phases absent from tau-bench and stronger than web-only AgentRewardBench.
+- S0/S5/S6/S8 carry VM/container, display, CPU, and storage demand due to environment setup, desktop actuation, screenshots, app execution, and execution-based validation.
+- S1/S4 remain accelerator/HBM dominated because each step requires model reasoning and action synthesis.

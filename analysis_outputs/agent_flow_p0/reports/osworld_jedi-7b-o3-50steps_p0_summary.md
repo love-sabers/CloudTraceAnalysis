@@ -1,0 +1,26 @@
+# OSWorld-Verified P0 Summary (jedi-7b-o3-50steps)
+
+- Runs: 361
+- Events: 44123
+- Success rate: 0.485
+
+## Domain Summary
+
+|domain|runs|success_rate|avg_steps|avg_screenshot_mb|avg_response_tokens|avg_runtime_log_kb|
+|---|---|---|---|---|---|---|
+|chrome|46|0.543|23.33|10.311|0.0|13.46|
+|gimp|26|0.808|14.81|6.223|0.0|8.05|
+|libreoffice_calc|47|0.404|28.72|6.424|0.0|13.99|
+|libreoffice_impress|47|0.426|23.43|7.905|0.0|13.16|
+|libreoffice_writer|23|0.609|19.04|3.726|0.0|11.84|
+|multi_apps|93|0.323|29.71|11.518|0.0|15.9|
+|os|24|0.542|17.62|20.053|0.0|9.89|
+|thunderbird|15|0.8|16.07|4.773|0.0|8.86|
+|vlc|17|0.471|19.88|16.761|0.0|10.29|
+|vs_code|23|0.565|21.04|3.622|0.0|10.07|
+
+## Interpretation
+
+- OSWorld introduces real desktop/GUI/VM phases absent from tau-bench and stronger than web-only AgentRewardBench.
+- S0/S5/S6/S8 carry VM/container, display, CPU, and storage demand due to environment setup, desktop actuation, screenshots, app execution, and execution-based validation.
+- S1/S4 remain accelerator/HBM dominated because each step requires model reasoning and action synthesis.

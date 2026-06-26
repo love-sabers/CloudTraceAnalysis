@@ -1,0 +1,10 @@
+source,scope,stage_id,stage_name,event_count,accelerator_gpu_npu,cpu,dram_hbm_memory,storage_io,network_io,browser_display_graphics,vm_container_isolation
+OSWorld-Verified,opencua_agent-opencua_a3b-cot_l2-action_history-3image-Ubuntu-50step,S0,setup,361,0.0,3.0,2.0,2.0,1.0,3.0,3.0
+OSWorld-Verified,opencua_agent-opencua_a3b-cot_l2-action_history-3image-Ubuntu-50step,S1,goal_interpretation_planning,361,3.0,3.0,3.0,2.0,0.0,0.0,0.0
+OSWorld-Verified,opencua_agent-opencua_a3b-cot_l2-action_history-3image-Ubuntu-50step,S2,observation_capture,6761,2.0,3.0,2.395,2.0,0.0,3.0,2.0
+OSWorld-Verified,opencua_agent-opencua_a3b-cot_l2-action_history-3image-Ubuntu-50step,S3,context_building,6761,2.0,3.0,3.0,2.0,0.0,2.395,2.0
+OSWorld-Verified,opencua_agent-opencua_a3b-cot_l2-action_history-3image-Ubuntu-50step,S4,action_decision,6761,3.0,3.0,3.0,2.0,0.0,1.186,0.0
+OSWorld-Verified,opencua_agent-opencua_a3b-cot_l2-action_history-3image-Ubuntu-50step,S5,actuation_desktop_gui,6761,0.0,3.0,2.0,2.0,0.097,3.0,3.0
+OSWorld-Verified,opencua_agent-opencua_a3b-cot_l2-action_history-3image-Ubuntu-50step,S6,environment_result_wait,6761,0.0,3.0,2.0,2.0,0.097,3.0,3.0
+OSWorld-Verified,opencua_agent-opencua_a3b-cot_l2-action_history-3image-Ubuntu-50step,S7,feedback_error_recovery,302,3.0,3.0,3.0,2.0,0.0,2.248,2.0
+OSWorld-Verified,opencua_agent-opencua_a3b-cot_l2-action_history-3image-Ubuntu-50step,S8,validation_finalization,361,1.0,3.0,1.0,2.0,1.0,1.0,3.0

@@ -1,0 +1,10 @@
+source,scope,stage_id,stage_name,event_count,accelerator_gpu_npu,cpu,dram_hbm_memory,storage_io,network_io,browser_display_graphics,vm_container_isolation
+AgentRewardBench,complete,S0,setup,1302,0.0,2.0,2.0,1.0,2.0,3.0,0.0
+AgentRewardBench,complete,S1,goal_interpretation_planning,1302,3.0,1.0,3.0,0.0,0.0,0.0,0.0
+AgentRewardBench,complete,S2,observation_capture,27299,1.584,2.108,2.108,0.0,2.0,3.0,0.0
+AgentRewardBench,complete,S3,context_building,27299,1.584,3.0,3.0,0.0,1.0,2.0,0.0
+AgentRewardBench,complete,S4,action_decision,27299,3.0,1.0,3.0,0.0,0.0,0.0,0.0
+AgentRewardBench,complete,S5,actuation,27299,0.0,2.0,1.216,0.0,1.781,3.0,0.0
+AgentRewardBench,complete,S6,environment_result_wait,27299,0.0,2.0,2.108,0.0,2.0,3.0,0.0
+AgentRewardBench,complete,S7,feedback_error_recovery,2823,3.0,2.0,3.0,0.0,2.0,2.0,0.0
+AgentRewardBench,complete,S8,validation_finalization,1302,1.0,2.0,1.0,1.0,1.0,1.0,0.0

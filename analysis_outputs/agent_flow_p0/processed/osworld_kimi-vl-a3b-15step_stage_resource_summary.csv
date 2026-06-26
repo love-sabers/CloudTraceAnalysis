@@ -1,0 +1,10 @@
+source,scope,stage_id,stage_name,event_count,accelerator_gpu_npu,cpu,dram_hbm_memory,storage_io,network_io,browser_display_graphics,vm_container_isolation
+OSWorld-Verified,kimi-vl-a3b-15step,S0,setup,361,0.0,3.0,2.0,2.0,1.0,3.0,3.0
+OSWorld-Verified,kimi-vl-a3b-15step,S1,goal_interpretation_planning,361,3.0,3.0,3.0,2.0,0.0,0.0,0.0
+OSWorld-Verified,kimi-vl-a3b-15step,S2,observation_capture,4615,2.0,3.0,2.368,2.0,0.0,3.0,2.0
+OSWorld-Verified,kimi-vl-a3b-15step,S3,context_building,4615,2.0,3.0,3.0,2.0,0.0,2.368,2.0
+OSWorld-Verified,kimi-vl-a3b-15step,S4,action_decision,4615,3.0,3.0,3.0,2.0,0.0,1.103,0.0
+OSWorld-Verified,kimi-vl-a3b-15step,S5,actuation_desktop_gui,4615,0.0,3.0,2.0,2.0,0.117,3.0,3.0
+OSWorld-Verified,kimi-vl-a3b-15step,S6,environment_result_wait,4615,0.0,3.0,2.0,2.0,0.117,3.0,3.0
+OSWorld-Verified,kimi-vl-a3b-15step,S7,feedback_error_recovery,115,3.0,3.0,3.0,2.0,0.0,2.409,2.0
+OSWorld-Verified,kimi-vl-a3b-15step,S8,validation_finalization,361,1.0,3.0,1.0,2.0,1.0,1.0,3.0

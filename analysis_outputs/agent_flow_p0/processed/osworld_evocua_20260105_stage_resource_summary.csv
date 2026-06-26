@@ -1,0 +1,10 @@
+source,scope,stage_id,stage_name,event_count,accelerator_gpu_npu,cpu,dram_hbm_memory,storage_io,network_io,browser_display_graphics,vm_container_isolation
+OSWorld-Verified,evocua_20260105,S0,setup,361,0.0,3.0,2.0,2.0,1.0,3.0,3.0
+OSWorld-Verified,evocua_20260105,S1,goal_interpretation_planning,361,3.0,2.512,3.0,1.512,0.0,0.0,0.0
+OSWorld-Verified,evocua_20260105,S2,observation_capture,10233,2.0,2.943,2.427,1.943,0.0,3.0,2.0
+OSWorld-Verified,evocua_20260105,S3,context_building,10233,2.0,3.0,3.0,1.943,0.0,2.427,2.0
+OSWorld-Verified,evocua_20260105,S4,action_decision,10233,3.0,2.886,3.0,1.886,0.0,1.28,0.0
+OSWorld-Verified,evocua_20260105,S5,actuation_desktop_gui,10233,0.0,2.964,2.0,1.964,0.113,3.0,3.0
+OSWorld-Verified,evocua_20260105,S6,environment_result_wait,10233,0.0,3.0,2.0,2.0,0.113,3.0,3.0
+OSWorld-Verified,evocua_20260105,S7,feedback_error_recovery,263,3.0,2.989,3.0,1.989,0.0,2.521,2.0
+OSWorld-Verified,evocua_20260105,S8,validation_finalization,361,1.0,3.0,1.0,2.0,1.0,1.0,3.0
