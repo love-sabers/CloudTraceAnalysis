@@ -7,6 +7,7 @@ This report uses only quantities present in downloaded traces or mechanical byte
 - tau-bench / all: `/root/liujun/saber/project/CloudTrace/processed/tau_events.csv`
 - AgentRewardBench / complete: `/root/liujun/saber/project/CloudTrace/processed/arb_events_complete.csv`
 - OSWorld-Verified / all_models: `/root/liujun/saber/project/CloudTrace/processed/osworld_all_events.csv`
+- TerminalTraj / terminal_agent: `/root/liujun/saber/project/CloudTrace/processed/terminaltraj_events.csv`
 
 ## Output Tables
 
@@ -65,6 +66,7 @@ This report uses only quantities present in downloaded traces or mechanical byte
 |OSWorld-Verified|opencua_agent-opencua_a3b-cot_l2-action_history-3image-Ubuntu-100step|2971|44666|0.000000|
 |OSWorld-Verified|opencua_agent-opencua_a3b-cot_l2-action_history-3image-Ubuntu-15step|2935|22127|0.000000|
 |OSWorld-Verified|opencua_agent-opencua_a3b-cot_l2-action_history-3image-Ubuntu-50step|2954|35190|0.000000|
+|TerminalTraj|terminal_agent|170356|2069432|0.000000|
 |tau-bench|claude-3.5-sonnet::airline|2636|13309|0.000000|
 |tau-bench|claude-3.5-sonnet::retail|6010|35094|0.000000|
 |tau-bench|gpt-4o::airline|1213|6672|0.000000|

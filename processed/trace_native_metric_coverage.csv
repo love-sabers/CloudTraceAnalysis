@@ -422,6 +422,15 @@ OSWorld-Verified,opencua_agent-opencua_a3b-cot_l2-action_history-3image-Ubuntu-5
 OSWorld-Verified,opencua_agent-opencua_a3b-cot_l2-action_history-3image-Ubuntu-50step,S6,environment_result_wait,6761,0.0
 OSWorld-Verified,opencua_agent-opencua_a3b-cot_l2-action_history-3image-Ubuntu-50step,S7,feedback_error_recovery,302,0.0
 OSWorld-Verified,opencua_agent-opencua_a3b-cot_l2-action_history-3image-Ubuntu-50step,S8,validation_finalization,361,0.0
+TerminalTraj,terminal_agent,S0,setup,20000,0.0
+TerminalTraj,terminal_agent,S1,goal_interpretation_planning,336133,0.0
+TerminalTraj,terminal_agent,S2,observation_capture,336326,0.0
+TerminalTraj,terminal_agent,S3,context_building,336326,0.0
+TerminalTraj,terminal_agent,S4,action_decision,336326,0.0
+TerminalTraj,terminal_agent,S5,actuation_terminal,306407,0.0
+TerminalTraj,terminal_agent,S6,environment_result_wait,316326,0.0
+TerminalTraj,terminal_agent,S7,feedback_error_recovery,45568,0.0
+TerminalTraj,terminal_agent,S8,validation_finalization,36020,0.0
 tau-bench,claude-3.5-sonnet::airline,S1,goal_interpretation_planning,400,0.0
 tau-bench,claude-3.5-sonnet::airline,S2,observation_capture,2313,0.0
 tau-bench,claude-3.5-sonnet::airline,S4,action_decision,4319,0.0

@@ -269,6 +269,10 @@ def select_event_files(processed: Path) -> list[tuple[Path, str, str]]:
                 continue
             model = path.name[len("osworld_") : -len("_events.csv")]
             files.append((path, "OSWorld-Verified", model))
+
+    terminaltraj = processed / "terminaltraj_events.csv"
+    if terminaltraj.exists():
+        files.append((terminaltraj, "TerminalTraj", "terminal_agent"))
     return files
 
 
